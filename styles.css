@@ -131,6 +131,10 @@ body {
 }
 /* Media Queries */
 @media (max-width: 376px) {
+  body {
+    height: 100%;
+    width: 80%;
+  }
   .card::before {
     position: absolute;
     content: "";
